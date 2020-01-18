@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Basket {
 
-   static List<Book> books = new ArrayList<>();
+    List<Book> books = new ArrayList<>();
 
     public Book createBook(String bookName, String authorName, int price) {
         return new Book(bookName, authorName, price);
